@@ -66,7 +66,7 @@ public class TestExercicio {
 		CupomFiscal.NUMERO = 100;
 		CupomFiscal.COMPLEMENTO = "Casa";
 		CupomFiscal.BAIRRO = "Centro";
-		CupomFiscal.MUNICIPIO = "Araçagi";
+		CupomFiscal.MUNICIPIO = "Aracagi";
 		CupomFiscal.ESTADO = "PB";
 		CupomFiscal.CEP = "58270-000";
 		CupomFiscal.TELEFONE = "(83) 98111-2697";
@@ -77,7 +77,7 @@ public class TestExercicio {
 		//E atualize o texto esperado abaixo
 		rodarTestarOutput("Jr Tech" + BREAK + 
 				"Rua Geraldo Correia de Melo, 100 Casa" + BREAK + 
-				"Centro - Araçagi - PB" + BREAK + 
+				"Centro - Aracagi - PB" + BREAK + 
 				"CEP:58270-000 Tel (83) 98111-2697" + BREAK + 
 				"Matriz" + BREAK + 
 				"CNPJ: 66.651.293/0001-85" + BREAK + 

@@ -15,8 +15,18 @@ public class CupomFiscal {
 	public static String CNPJ = "42.591.651/0797-34";
 	public static String INSCRICAO_ESTADUAL = "244.898.500.113";
 
+	public static String Spacer = System.lineSeparator();
+
 	public static void main(final String[] args) {
-		//Implemente aqui
-	}
+		String typewriter = NOME_LOJA + Spacer;
+		typewriter += LOGRADOURO + ", " + NUMERO + " " + COMPLEMENTO + Spacer;
+		typewriter += BAIRRO +" - " + MUNICIPIO + " - " + ESTADO + Spacer;
+		typewriter += "CEP:" + CEP + " Tel " + TELEFONE + Spacer;
+		typewriter += OBSERVACAO + Spacer;
+		typewriter += "CNPJ: " + CNPJ + Spacer;
+		typewriter += "IE: " + INSCRICAO_ESTADUAL;	
+
+		System.out.println(typewriter);
+	} 
 
 }
